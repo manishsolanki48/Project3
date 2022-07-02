@@ -1,0 +1,679 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.topheaderNavigation{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 58px 0px 58px;
+}
+.logo{
+    font-size: 40px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 305px;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0px 44px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+.serch-icon{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+.bannerSection{
+    width: 100%;
+    background: url(../images/banner--pizza-image.png) no-repeat 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.bannerTextSection{
+    background: url(../images/banner-bg.png) no-repeat 0 0;
+    width: 937px;
+    min-height: 786px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 233px;
+}
+.bannerTextSection h2{
+    font-size: 118px;
+    color: #ffc200;
+    font-family: 'Grand Hotel', cursive;;
+    margin: 0px 0px 45px 0px;
+}
+.bannerTextSection p{
+    font-size: 27px;
+    max-width: 591px;
+    color: white;
+    font-family: 'Grand Hotel', cursive;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
+.order-now{
+    width: 233px;
+    color: black;
+    background-color: #ffc200;
+    text-decoration: none;
+    font-size: 18PX;
+    padding: 12px 51px 12px 51px;
+    border-radius: 8px;
+}
+.blogsection{
+    padding-bottom: 200px;
+}
+.blogtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.blogtext h2{
+    font-size: 71px;
+    margin: 175px 0px 43px 0px;
+    font-family: 'Grand Hotel', cursive;;
+}
+.blogtext p{
+    max-width: 885px;
+    text-align: center;
+    font-size: 31px;
+    margin-bottom: 65px;
+    font-family: 'Grand Hotel', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+.blog{
+    display: flex;
+    flex-direction: row;
+    max-width: 1030px;
+    gap: 0px 100px;
+}
+.blog-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.blog-box img{
+    width: 228px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+.blog-box span{
+    font-size: 39px;
+    margin-bottom: 11px;
+    font-family: 'Grand Hotel', cursive;;
+}
+.blog-box p{
+    width: 229px;
+    font-size: 16px;
+    font-family: 'Grand Hotel', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.servicewrapper{
+    position: relative;
+}
+.servicewrapper::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    z-index: -1;
+    background: #303030;
+}
+.servisesetion{
+    background: url(../images/stattic-top.png) no-repeat 0 0;
+    background-size: contain;
+    
+}
+.servicetext{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    max-width: 1138px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.left{
+    width: 50%;
+    padding-top: 87px;
+}
+.right{
+    width: 50%;
+}
+.left img{
+    width: 439px;
+}
+.right h2{
+    font-family: 'Grand Hotel', cursive;;
+    font-size: 75px;
+    color: #ffc200;
+    margin: 160px 0px 49px 0px;
+}
+.right p{
+    font-family: 'Grand Hotel', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    max-width: 542px;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+.service-btn{
+    color: black;
+    background-color: #ffc200;
+    width: 302px;
+    text-decoration: none;
+    padding: 16px 80px 16px 80px;
+    border-radius: 8px;
+}
+.Statisticssection{
+    background-color: #303030;
+    padding-bottom: 100px;
+}
+.Statisticswrapper{
+    background: url(../images/stattic-pattern.png) no-repeat 0 0;
+    background-size: contain ;
+    padding-bottom: 250px;
+}
+.Statisticstext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+.Statisticstext h2{
+    font-family: 'Grand Hotel', cursive;;
+    font-size: 95px;
+    color: #ffc200;
+    margin: 65px 0px 31px 0px;
+}
+.Statisticstext p{
+    font-family: 'Grand Hotel', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    max-width: 769px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 97px;
+}
+.number-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.counterBox{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+    padding: 60px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px 30px;
+}
+.number{
+    font-size: 50px;
+    color: #ffc200;
+}
+.text{
+    color: white;
+    font-size: 30px;
+}
+.contenarsection{
+    background: url(../images/stattic-bootom.png) no-repeat 0 0;
+    background-size: contain;
+}
+.contenartext{
+    max-width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -80px;
+}
+.contenar-left {
+    width: 60%;
+}
+.contenar-right {
+    width: 40%;
+}
+.contenar-right img{
+    width: 439px;
+    border-radius: 50%;
+}
+.contenar-left h2{
+    font-family: 'Grand Hotel', cursive;;
+    font-size: 75px;
+    color: #ffc200;
+    margin: 0 0px 49px 0px;
+}
+.contenar-left p{
+    font-family: 'Grand Hotel', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    max-width: 542px;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+.contenar-btn{
+    color: black;
+    background-color: #ffc200;
+    width: 302px;
+    text-decoration: none;
+    padding: 16px 80px 16px 80px;
+    border-radius: 8px;
+}
+.about-section{
+    background: url(../images/about-section-image.png) no-repeat 0 0;
+    background-size: cover;
+    padding-top: 251px;
+    padding-bottom: 255px;
+    margin-top: 105px;
+}
+.about-section-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+}
+.about-section-Text{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 865px;
+    font-size: 42px;
+    margin-bottom: 45px;
+}
+.about-letter{
+    font-family: 'Grand Hotel', cursive;;
+    font-size: 72px;
+}
+.textfoldersection{
+    background: url(../images/image2.png) no-repeat 0 0;
+    background-size: cover;
+    background-color: #f4f4f4;
+    padding: 139px 0px 293px 0px;
+}
+.tex-twrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+.textfolder-letter{
+    font-family: 'Grand Hotel', cursive;;
+    font-size: 94px;
+    margin-bottom: 54px;
+}
+.text-peregharph{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    max-width: 790px;
+    text-align: center;
+    margin-bottom: 78px;
+}
+.input-section {
+    box-shadow: 5px 6px 44px #00000038;
+}
+.input-btn {
+    width: 483px;
+    padding: 15px 18px;
+    font-size: 24px;
+}
+.Subscribe-btn{
+    font-size: 24px;
+    max-width: 209px;
+    text-decoration: none;
+    color: black;
+    background-color: #ffc200;
+    padding: 19px 27px;
+    border-radius: 3px;
+}
+.footerwrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: #303030;
+    color: white;
+    padding: 100px 0px 100px 0px;
+    flex-wrap: wrap;
+}
+.footer-section-1{
+    padding-left: 84px;
+}
+.footer-section-1 span{
+    font-size: 40px;
+}
+.footer-text{
+    font-size: 27px;
+    max-width: 541px;
+    margin-top: 31px;
+    margin-bottom: 28px;
+}
+.footer-icons a{
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.footer-section-2{
+    display: flex;
+    flex-direction: row;
+    padding-right: 70px;
+    gap: 30px;
+}
+.about{
+    font-size: 36px;
+}
+.contect-section p{
+    font-size: 23px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.show-btn{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 40px;
+    color: white;
+    display: none;
+}
+.blog,.servicetext,.right,.counterBox.contenar-left,.contenar-right,.bannerTextSection h2,.bannerTextSection p,.bannerTextSection,.order-now{
+    opacity: 0;
+}
+.blog,
+.animated,
+.servicetext,
+.animated,
+.right,
+.animated,
+.counterBox,
+.animated.contenar-left,
+.animated,
+.contenar-right,
+.animated,
+.bannerTextSection h2,
+.animated,
+.bannerTextSection p,
+.animated
+,.bannerTextSection,
+.order-now,
+.animated{
+    opacity: 1;
+}
+
+@media only screen and (max-width: 768px){
+    .topheaderNavigation{
+        width: 100%;
+        height: 100vh;
+        background-color: #303030;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 4;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+    }
+    .logo{
+        text-align: center;
+    }
+    .serch-icon {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 55px;
+        text-decoration: none;
+        padding-bottom: 42px;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        margin-left: 11px;
+    }
+    .menu li a{
+        font-size: 60px;
+        margin: 20px 0px;
+    }
+    .show-btn{
+        display: block;
+        z-index: 5;
+        position: fixed;
+    }
+    .blog {
+        display: flex;
+        margin: auto;
+        gap: 42px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about-section-Text {
+        font-size: 38px;
+    }
+    .text-peregharph{
+        font-size: 32px;
+    }
+    .input-btn {
+        max-width: 207px;
+        font-size: 14px;
+    }
+    .Subscribe-btn {
+        font-size: 12px;
+        padding: 17px 18px;
+    }
+    .servicetext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 0px 0px 100px 193px;
+    }
+    .servicewrapper::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 897px;
+        z-index: -1;
+        background: #303030;
+    }
+    .right h2 {
+        font-family: 'Grand Hotel', cursive;
+        font-size: 75px;
+        color: #ffc200;
+        margin: 63px 0px 49px 0px;
+    }
+    .left {
+        width: 100%;
+        padding-top: 317px;
+    }
+    .right {
+        width: 100%;
+    }
+    .left img{
+        max-width: 300px;
+    }
+    .Statisticssection {
+        background-color: #303030;
+        padding-bottom: 20px;
+    }
+    .Statisticstext p{
+        max-width: 655px;
+    }
+    .number-section{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .contenartext{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding-bottom: 40px;
+    }
+    .contenar-right img {
+        width: 300px;
+        border-radius: 50%;
+    }
+    .contenar-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .contenar-right img {
+        width: 300px;
+        border-radius: 50%;
+    }
+    .contenar-btn {
+        max-width: 264px;
+    }
+    .footerwrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-section-1{
+        margin-bottom: 50px;
+    }
+    .footer-section-2{
+        display: flex;
+        flex-direction: column;
+        padding-left: 80px;
+    }
+    .footer-section-1 span {
+        font-size: 42px;
+    }
+    .about {
+        font-size: 45px;
+    }
+    .footer-text {
+        font-size: 28px;
+        max-width: 453px;
+        margin-top: 31px;
+    }
+    .contect-sectionp{
+        font-size: 25px;
+    }
+    .footer-icons a{
+        padding: 9px;
+    }
+    .counterBox{
+        padding: 85px;
+    }
+    .number {
+        font-size: 75px;
+        color: #ffc200;
+    }
+    .text {
+        color: white;
+        font-size: 34px;
+    }
+  }
+  @media only screen and (max-width: 767px){
+    .contenar-right {
+        width: 60%;
+    }
+    .contenar-left {
+        width: 40%;
+    }
+    .contenartext{
+        gap: 20px;
+    }
+    .contenar-right img {
+        width: 244px;
+        border-radius: 50%;
+    }
+    .left {
+        width: 100%;
+        padding-top: 211px;
+    }
+    .left img {
+        max-width: 284px;
+    }
+    .right h2 {
+        font-family: 'Grand Hotel', cursive;
+        font-size: 75px;
+        color: #ffc200;
+        margin: 26px 0px 49px 0px;
+    }
+    .menu li a {
+        font-size: 30px;
+        margin: 16px 0px;
+    }
+    .serch-icon{
+        font-size: 40px;
+    }
+    .show-btn{
+        position: absolute;
+        top: 7%;
+        right: 5%;
+        font-size: 30px;
+        position: fixed;
+    }
+    .servicetext {
+        padding: 0px 0px 100px 50px;
+    }
+    .footer-section-1 {
+        padding-left: 26px;
+    }
+    .footer-section-2{
+        padding-left: 29px;
+    }
+    .contenar-left p{
+        color: black;
+        margin-bottom: 32px;
+    }
+    .contenar-left h2{
+        margin-bottom: 9px;
+    }
+    .bannerTextSection {
+        padding-left: 80px;
+    }
+    .bannerTextSection h2{
+        font-size: 60px;
+        margin: 0px 0px 14px 0px;
+    }
+    .order-now{
+        width: 211px;
+    }
+    .bannerTextSection p {
+        font-size: 18px;
+        max-width: 314px;
+        color: white;
+        font-family: 'Grand Hotel', cursive;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 40px;
+    }
+  }
